@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*-------Banner---------*/
+
+.banner{ 
+    background-image: url('/imagenes/banner2.jpeg');
+    background-color: hsla(0, 81%, 44%, 0.992);
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    height: 8rem;
+
+    }
+
+    .dropdown-menu{
+        background-color: rgb(233, 53, 53);
+        font-style:oblique;
+        text-decoration:underline;
+    }
+    
+    /*---------productos---------*/
+
+    .inventarioFlex{
+        display: inline-flex;
+        background-color: rgba(45, 59, 48, 0.877); 
+        flex-wrap: wrap;
+        height:100%;  
+        width:100%;   
+    }
+
+
+    .row{
+        border-style: solid;
+        border-color: rgb(8, 8, 8);
+        color:rgb(255, 255, 255);
+        padding: inherit;
+        border-radius: 9px;
+    }
+    .card{
+        background-color: black;
+        height: 100%;
+        align-items: center;
+    }
+    .card img{
+        width: 70%;
+    }
+
+
+   
+
+    /*----------redes-----------*/
+
+    .icono{
+         font-size: 4rem; 
+         cursor: pointer;
+        }
+
+        .icono2 {
+            font-size: 4rem; 
+            cursor: pointer;
+            background-color: white;
+            color: rgba(206, 22, 22, 0.979);
+        }
+
+   
+
+
+    .map{
+        margin: 1rem;
+    }
+/*---------RESPONSIVE---------*/   
+@media(min-width: 478px) {
+
+    .row{
+        display: flex;
+        width: 14rem;    
+        height: 22rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media(min-width: 600px)  {
+
+    .row{
+        display: flex;
+        width:14rem;
+        height: 21rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    
+    }
+}
+
+@media(min-width: 758px){
+
+    .row{
+        display: flex;
+        width:14rem;
+        height: 21rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    
+    }
+
+}
